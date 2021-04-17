@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+/*----structure of page----*/
+
+header  {
+  background-color: #517A85;
+  padding: 3px; 
+}
+
+body  {
+  background-color: #F6F7EB;
+}
+
+hr  {
+  background-color: #E5F92C;
+  border-color:lightslategray;
+  height: 4px;
+  width: 800px;
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+footer {
+  background-color: #517A85;
+  height: 40px;
+  margin-top: 50px;
+}
+
+/*--------content styling---------*/
+
+h1  {
+  color: #F6F7EB;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  padding-left: 100px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+
+h2, h3  {
+  font-family: 'Lato', sans-serif;
+  color: darkslategrey;
+  letter-spacing: .5px;
+  text-align: center;
+}
+
+h2  {
+  font-size: 30px;
+}
+
+h3  {
+  font-size: 25px;
+}
+
+p, li {
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+/*-----to center paragraph under h1----*/
+.center { 
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/*----formatting for main photo---*/
+.circle{ 
+  border-radius: 50%;
+  border:10px solid #2EB1AB;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*----pseudo-classe selectors for links---*/
+a:link    {color: blue)}
+a:visited {color: rgb(197, 61, 174)}
+a:hover   {color: teal}
+a:active  {color: #E5F92C}
+
+
+
+
